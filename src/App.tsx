@@ -109,7 +109,7 @@ export default function App() {
         <HoldButton isHolding={isHolding} disabled={isComplete} onHoldStart={handleHoldStart} onHoldEnd={handleHoldEnd} />
 
         <p className="helper-text">
-          {isComplete ? "満開です。春のまま止まっています。" : "長押しを続けると花びらが開きます。"}
+          {isComplete ? "満開です。そのまま止まっています。" : "長押しを続けると花びらが開きます。"}
         </p>
       </section>
     </main>
